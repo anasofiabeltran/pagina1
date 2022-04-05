@@ -7,7 +7,7 @@ body{
 
 .overall_mockup{
     display: grid;
-    grid-template-columns: repeat(7,16%);;/*repetir las columnas 3 veces, cada columna tiene un espacio de 100px*/
+    grid-template-columns: repeat(7,16%);/*repetir las columnas 3 veces, cada columna tiene un espacio de 100px*/
     justify-content: center;/*centrar las columnas*/
 }
 
@@ -52,17 +52,35 @@ body{
 
 /*https://tech-es.netlify.app/articles/es515298/index.html*/
 .section_2--1{
-
+    width: 20px;
     background: #01172f;
     height: 284px;
     flex-grow: 1;/*el espacio libre se distribuye entre los elementos*/
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.number--section_2-1{
+    font-size: 108px
+}
+
+.button{
+    background-color: #f44336;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .section_2--2{
-
+    width: 20%;
     background: #4ad7d1;
     height: 284px;
     flex-grow: 2;
+    padding: 0% 2% 0%;
 }
 
 .section_2--3{
@@ -75,36 +93,243 @@ body{
 
 
 .section_3{
-    height: 100px;
+    height: 400px;
     background: rgb(35, 255, 53);
     grid-column: 2/7;
     grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
 }
 
+.section_3-1{
+    height: 200px;
+    background: rgb(222, 255, 35);
+}
+
+.section_3-2{
+    height: 200px;
+    background: rgb(255, 35, 244);
+}
+
+.section_3-3{
+    height: 200px;
+    background: rgb(35, 211, 255);
+}
+
+.section_3-4{
+    height: 200px;
+    background: rgb(8, 235, 0);
+}
+
+.section_box{
+    width: 60%;
+    height: 50px;
+    position: relative;
+    top: 32%;
+}
+
+.section_box-3-1{
+    background: rgb(6, 253, 253);
+}
+
+.section_box-3-2{
+    background: rgb(255, 255, 255);
+}
+
+.section_box-3-3{
+    background: rgb(255, 255, 255);
+}
+
+.section_box-3-4{
+    background: rgb(255, 33, 81);
+}
+
+
 .section_4{
-    height: 100px;
-    background: rgb(0, 87, 218);
+    height: 502px;
+    background: #fb8713e3;
     grid-column: 2/7;
     grid-row: 4;
+    position: relative;
+}
+
+.section_4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*para evitar que la imagen se pixele apenas se crezca*/
+}
+
+.section_4:before {/*el color encima de la primera imagen*/
+	content:'';/*se debe colocar para poder que aparezca el fondo*/
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background: linear-gradient(70deg, #fb8713e3, #fd7dc3a3);
+}
+
+.section_4-1{
+    display: flex;
+    position: absolute;
+    margin: 18% 10% 0%;
+}
+
+.number--section_4-1{
+    font-size: 108px;
+    color: white;
+}
+
+.content1--section_4-1{
+    position: relative;
+    top: -29px;
+    left: -25px;
+
+}
+
+.content2--section_4-1{
+    color: white;
 }
 
 .section_5{
-    height: 100px;
+    height: 400px;
     background: rgb(145, 242, 255);
     grid-column: 2/7;
     grid-row: 5;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.section_5-1{
+    display: grid;
+    grid-template-columns: repeat(4,50%);
 }
 
+.section_5-1-1{
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(de-cerca-la-textura-de-fondo-abstracto-arrugado-papel-de-aluminio-plata-en-azul-400-44123136.jpg);
+}
+
+.section_5-1-2{
+    height: 200px;
+    background: rgb(70, 255, 224);
+    text-align: center;
+    box-sizing: border-box; /*evitar que el padding añada tamaño al contenedor*/
+    padding: 18% 0% 0%;
+}
+
+.section_5-1-3{
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(girl-3649758_1280.jpg);
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.section_5-1-4{
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(2568794759_45d2fb3600_o-734x478.jpg);
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.section_5-2{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(8ae5594d9ec8d756ae761be220f15daa--light-photography-neon.jpg);
+}
+
+
 .section_6{
-    height: 100px;
+    height: 300px;
     background: rgb(255, 197, 6);
     grid-column: 2/7;
     grid-row: 6;
+    display: flex;
+}
+
+.section_6-1{
+    width: 35%;
+    height: 300px;
+    background: rgb(4, 10, 87);
+    color: white;
+    flex-grow: 1;/*el espacio libre se distribuye entre los elementos*/
+    box-sizing: border-box;
+    padding: 3% 5% 0%;
+}
+
+.section_6-2{
+    width: 65%;
+    height: 300px;
+    flex-grow: 2;/*el espacio libre se distribuye entre los elementos*/
+    position: relative;
+}
+
+.section_6-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*para evitar que la imagen se pixele apenas se crezca*/
+}
+
+.section_content-6-2{
+    position: absolute;
+    top: 22px;
+    left: 71%;
+}
+
+.number--section_6-2{
+    font-size: 108px;
+    color: white;
 }
 
 .section_7{
-    height: 100px;
-    background: rgb(214, 0, 203);
+    height: 300px;
+    background: rgb(214, 32, 0);
     grid-column: 2/7;
     grid-row: 7;
+    display: flex;
+}
+
+.section_7-1{
+    width: 50%;
+    height: 300px;
+    flex-grow: 1;/*el espacio libre se distribuye entre los elementos*/
+    position: relative;
+}
+
+.section_7-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*para evitar que la imagen se pixele apenas se crezca*/
+}
+
+.section_7-1:before {/*el color encima de la primera imagen*/
+	content:'';/*se debe colocar para poder que aparezca el fondo*/
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background: linear-gradient(70deg, #fb8713e3, #fd7dc3a3);
+}
+
+.section_content-7-1{
+    position: absolute;
+    top: 50px;
+    left: 12%;
+    color: white;
+}
+
+.section_7-2{
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(pexels-photo-1089027.jpeg);
+    flex-grow: 1;/*el espacio libre se distribuye entre los elementos*/
 }
