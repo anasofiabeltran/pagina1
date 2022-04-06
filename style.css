@@ -1,9 +1,10 @@
 body{
-    background-image: url("pexels-photo-1089027.jpeg") ;
+    background-image: url("pexels-photo-1089027.jpg") ;
     /*se utiliza para hacer que el fondo de pantalla no se repita*/
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .overall_mockup{
     display: grid;
@@ -30,10 +31,23 @@ body{
     background: linear-gradient(70deg, #fb8713e3, #fddc7da3);
 }
 
+.tittle1--section-1{
+    font-size: 24px;
+}
+
+.tittle2--section-1{
+    font-size: 62px;
+}
+
+.text--section-1{
+    margin: 0%;
+}
+
 .paragraph__section-1{
     position: absolute;
-    top: 78%;
+    top: 42%;
     left: 10%;
+    color: white;
 }
 
 .section_1 img{
@@ -43,7 +57,7 @@ body{
 }
 
 .section_2{ 
-    height: 284px;                
+    height: 348px;                
     background: rgb(235, 0, 39);
     grid-column: 2/7;
     grid-row: 2;
@@ -54,7 +68,7 @@ body{
 .section_2--1{
     width: 20px;
     background: #01172f;
-    height: 284px;
+    height: 348px;
     flex-grow: 1;/*el espacio libre se distribuye entre los elementos*/
     display: flex;
     justify-content: center;
@@ -73,75 +87,110 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    color: white;
 }
 
 .section_2--2{
     width: 20%;
     background: #4ad7d1;
-    height: 284px;
+    height: 348px;
     flex-grow: 2;
-    padding: 0% 2% 0%;
+    padding: 3% 3%;;
+    color: white;
 }
 
 .section_2--3{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(HD-wallpaper-grayscale-graphy-of-a-man-praying.jpg);
-    height: 284px;
+    height: 348px;
     flex-grow: 1;
 }
 
 
 .section_3{
-    height: 400px;
-    background: rgb(35, 255, 53);
+    height: 674px;
+    background: #4ad7d1;
     grid-column: 2/7;
     grid-row: 3;
     display: grid;
     grid-template-columns: repeat(2,50%);
 }
 
+.section_3--inside{
+    padding: 10%;
+    box-sizing: border-box;
+}
+
 .section_3-1{
-    height: 200px;
-    background: rgb(222, 255, 35);
+    height: 337px;
+    background: #fe4a49;
+    color: white;
 }
 
 .section_3-2{
-    height: 200px;
-    background: rgb(255, 35, 244);
+    height: 337px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Street-city-alley-night-lights-Japan_1920x1080.jpg);
+    color: white;
 }
 
 .section_3-3{
-    height: 200px;
-    background: rgb(35, 211, 255);
+    height: 337px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(women-portrait-blonde-face-wallpaper-preview.jpg);
+    color: white;
 }
 
 .section_3-4{
-    height: 200px;
-    background: rgb(8, 235, 0);
+    height: 337px;
+    background: #4ad7d1;
+}
+
+.button--section-3{
+    background: transparent;
+    border: transparent;
+    font-size: 34px;
+    color: #fe4a49;
 }
 
 .section_box{
     width: 60%;
     height: 50px;
     position: relative;
-    top: 32%;
+    top: -2px;
+    font-size: 34px;
+    width: 229px;
+    margin-left: -54px;
+    padding-left: 48px;
+}
+
+.title--section--3{
+    margin: 2%;
+}
+
+.paragraph--section--3{
+    margin: 2%;
 }
 
 .section_box-3-1{
-    background: rgb(6, 253, 253);
+    background: #4ad7d1;
 }
 
 .section_box-3-2{
     background: rgb(255, 255, 255);
+    color: black;
 }
 
 .section_box-3-3{
     background: rgb(255, 255, 255);
+    color: black;
 }
 
 .section_box-3-4{
-    background: rgb(255, 33, 81);
+    background: #fe4a49;
 }
 
 
@@ -151,6 +200,17 @@ body{
     grid-column: 2/7;
     grid-row: 4;
     position: relative;
+}
+
+.button--section_4{
+    background-color: #071635;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
 }
 
 .section_4 img{
