@@ -28,7 +28,7 @@
     }
 
     .section_box{
-        margin-left: -32px;
+        margin-left: -8vw;
     }
 
     .paragraph__section-1{
@@ -160,6 +160,10 @@
         width: 100%;
     }
 
+    .number--section_2-1{
+        padding-top: 38%;
+    }
+
     .section_2--2{
         width: 100%;
     }
@@ -213,5 +217,11 @@
 
     .section_7-2{
         width: 100%;
+    }
+}
+
+@media(max-width:320px){
+    .section_box{
+        width: 174px;
     }
 }
