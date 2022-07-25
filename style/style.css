@@ -1,5 +1,5 @@
 body{
-    background-image: url("pexels-photo-1089027.jpg") ;
+    background-image: url("../assets/imgs/pexels-photo-1089027.jpg") ;
     /*se utiliza para hacer que el fondo de pantalla no se repita*/
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body{
 .section_2--3{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(HD-wallpaper-grayscale-graphy-of-a-man-praying.jpg);
+    background-image: url(../assets/imgs/HD-wallpaper-grayscale-graphy-of-a-man-praying.jpg);
     height: 348px;
     flex-grow: 1;
 }
@@ -132,7 +132,7 @@ body{
     height: 337px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(Street-city-alley-night-lights-Japan_1920x1080.jpg);
+    background-image: url(../assets/imgs/Street-city-alley-night-lights-Japan_1920x1080.jpg);
     color: white;
 }
 
@@ -140,7 +140,7 @@ body{
     height: 337px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(women-portrait-blonde-face-wallpaper-preview.jpg);
+    background-image: url(../assets/imgs/women-portrait-blonde-face-wallpaper-preview.jpg);
     color: white;
 }
 
@@ -268,7 +268,7 @@ body{
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(de-cerca-la-textura-de-fondo-abstracto-arrugado-papel-de-aluminio-plata-en-azul-400-44123136.jpg);
+    background-image: url(../assets/imgs/de-cerca-la-textura-de-fondo-abstracto-arrugado-papel-de-aluminio-plata-en-azul-400-44123136.jpg);
 }
 
 .section_5-1-2{
@@ -283,7 +283,7 @@ body{
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(girl-3649758_1280.jpg);
+    background-image: url(../assets/imgs/girl-3649758_1280.jpg);
     grid-column: 1/2;
     grid-row: 2;
 }
@@ -292,7 +292,7 @@ body{
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(2568794759_45d2fb3600_o-734x478.jpg);
+    background-image: url(../assets/imgs/2568794759_45d2fb3600_o-734x478.jpg);
     grid-column: 2/3;
     grid-row: 2;
 }
@@ -301,7 +301,7 @@ body{
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(8ae5594d9ec8d756ae761be220f15daa--light-photography-neon.jpg);
+    background-image: url(../assets/imgs/8ae5594d9ec8d756ae761be220f15daa--light-photography-neon.jpg);
 }
 
 
@@ -390,6 +390,6 @@ body{
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(pexels-photo-1089027.jpeg);
+    background-image: url(../assets/imgs/pexels-photo-1089027.jpeg);
     flex-grow: 1;/*el espacio libre se distribuye entre los elementos*/
 }
